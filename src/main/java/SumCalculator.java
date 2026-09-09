@@ -1,4 +1,5 @@
 public class SumCalculator {
+    // Calculate sum from 1 to n
     public int sum(int n) {
         if (n <= 0) {
             throw new IllegalArgumentException("n should be greater than 0");
